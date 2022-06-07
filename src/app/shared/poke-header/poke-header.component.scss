@@ -1,0 +1,33 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host {
+    header {
+        width: 1920px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        background: #020202;
+    }
+    
+    img {
+        position: absolute;
+        width: 172.73px;
+        height: 38px;
+        left: 28px;
+        top: 21px;
+    }
+
+    h2 {
+    float: right;
+    height: 44px;
+    left: 84.86%;
+    right: 14.03%;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 0.87);
+    }
+}
